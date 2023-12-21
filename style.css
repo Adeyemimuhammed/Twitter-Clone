@@ -1,0 +1,325 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 95%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+}
+.sidenav{
+    flex-basis: 25%;
+    border-right: 1px solid rgb(243,241,241);
+}
+.sidenav .fa-twitter{
+    font-size: 30px;
+    color: rgb(50, 184, 247);
+    margin: 20px 30px 0;
+}
+.icon-text{
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+    width: 95%;
+    padding: 6px 30px;
+}
+.icon-text:hover{
+    background-color: rgba(233,233,233,0.4);
+    border-radius: 50px;
+}
+.icon-text .fas{
+    font-size: 25px;
+    height: 25px;
+    width: 30px;
+    margin-right: 20px;
+}
+.active1{
+    background-color: rgba(233,233,233,0.4);
+    border-radius: 50px;
+}
+.active{
+    color: rgb(50, 184, 247);
+}
+.active1 h3{
+    color: rgb(50, 184, 247);
+}
+.sidenav button{
+    width: 95%;
+    margin-top: 20px;
+    background-color: rgb(50, 184, 247);
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+.sidenav button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.sidelastcontainer{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+.sidelastcontainer img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+.last-text{
+    font-weight: bold;
+    margin-right: 90px;
+}
+.sidelastcontainer .fa-ellipsis-h{
+    color: grey;
+    font-size: 18px;
+}
+
+
+/* middle */
+.tweetbox{
+    flex-basis: 50%;
+    padding: 0 30px;
+}
+.middle-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.middle-img h2{
+    text-transform: uppercase;
+    font-size: 17px;
+}
+hr{
+    background-color: rgb(218,213,213);
+    margin-top: 7px;
+    border: none;
+    outline: none;
+    height: 1px;
+}
+.middleimg1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.middleimg1 img, .middle-tweetbox img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+.middleimg1 input{
+    width: 400px;
+    margin: 20px 0;
+    border: none;
+    outline: none;
+}
+.image-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.middle-icon .fas,.far{
+    margin-right: 15px;
+    font-size: 20px;
+    color: rgb(50, 184, 247);    
+}
+.middleimg1 button{
+    background-color: rgb(50, 184, 247);
+    border: none;
+    outline: none;
+    width: 100px;
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 60px;
+}
+.middleimg1 button a{
+    color: #fff;
+    text-decoration: none;
+}
+.middle-tweetbox{
+    display: flex;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+.middle-textbox img{
+    width: 400px;
+    height: 270px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.tweethead{
+    display: flex;
+    align-items: center;
+}
+.tweethead h3{
+    font-size: 15px;
+    margin-right: 5px;
+}
+.tweethead p{
+    font-size: 14px;
+    color: gray;
+}
+.middle-textbox p{
+    font-size: 15px;
+    color: rgb(83,81,81);
+    margin-bottom: 15px;
+}
+#tweet{
+    margin-bottom: 15px;
+}
+.middle-icon-img .far,.middle-icon-img .fas{
+    margin: 15px 70px 0 0;
+}
+
+
+/* right */
+.rightcontainer{
+    flex-basis: 25%;
+    margin: 5px 0 20px 10px;
+}
+.right-input{
+    background-color: rgba(233,233,233,0.4);
+    border-radius: 50px;
+    margin-top: 10px;
+    padding: 10px;
+    color: rgba(97,95,95,0.4);
+}
+.right-input input{
+    border: none;
+    outline: none;
+    background-color: rgba(233,233,233,0.4);
+}
+.right-imgbox{
+    background-color: rgba(233,233,233,0.4);
+    margin: 20px 0;
+    border-radius: 10px;
+    height: 500px;
+}
+.right-imgbox h2{
+    font-size: 18px;
+    padding: 10px 10px;
+}
+.right-imgbox hr{
+    border: rgb(218,213,213);
+}
+.textbox-happen{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.textbox-happen img{
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.happen-text p{
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.happen-text h3{
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+.right-imgbox h4{
+    font-size: 14px;
+    color: rgb(50, 184, 247);
+    margin: 13px;
+}
+.icon-right{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.textbox-happen .fas{
+    color: gray;
+    font-size: 20px;
+}
+
+
+/* Media query for screens with a maximum width of 768px */
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidenav {
+        flex-basis: 100%; 
+        border-right: none; 
+    }
+
+    .sidenav button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .tweetbox {
+        flex-basis: 100%;
+        padding: 0 15px;
+    }
+
+    .rightcontainer {
+        flex-basis: 100%;
+        margin: 10px 0 20px 0;
+    }
+}
+
+/* Media query for screens with a maximum width of 480px */
+
+@media (max-width: 480px) {
+    .middleimg1 input {
+        width: 100%;
+    }
+
+    .middleimg1 button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+/* Media query for screens with a maximum width of 800px */
+@media (max-width: 800px) {
+    .container {
+        width: 90%; 
+    }
+
+    .sidenav, .tweetbox, .rightcontainer {
+        flex-basis: 33.33%;
+    }
+}
+
+/* Media query for screens with a maximum width of 800px */
+@media (max-width: 800px) {
+    .container {
+        width: 90%;
+    }
+
+    .sidenav, .tweetbox, .rightcontainer {
+        flex-basis: 33.33%;
+    }
+    .sidenav .fa-twitter {
+        font-size: 24px;
+    }
+
+    .icon-text .fas {
+        font-size: 20px;
+        margin-right: 15px;
+    }
+
+    .sidenav button {
+        margin-top: 15px;
+    }
+}
